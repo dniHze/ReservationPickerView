@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="59dp"
+    android:paddingBottom="4dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="4dp">
+
+    <TextView
+        android:id="@+id/min_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/sans_regular"
+        android:text="@string/min_price"
+        android:textColor="@color/color_day_short_label"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/min_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/sans_regular"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="$20" />
+</LinearLayout>

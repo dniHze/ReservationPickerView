@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="88dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/day_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/sans_regular"
+        android:textColor="@color/color_day_short_label"
+        android:textSize="14sp"
+        tools:text="Mo" />
+
+    <TextView
+        android:id="@+id/month_number"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/sans_regular"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:text="08" />
+
+    <TextView
+        android:id="@+id/month_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/sans_bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="Mar" />
+</LinearLayout>

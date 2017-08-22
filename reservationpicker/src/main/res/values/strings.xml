@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ReservationPicker</string>
+    <string name="min_price">Min.</string>
+</resources>
